@@ -34,7 +34,7 @@ function App() {
   };
 
   const clear = () => {
-    setOperacio("");
+    setOperacio(initialOperacio);
     setDisplay(initialDisplay);
     setAntic(initialAntic);
   };
